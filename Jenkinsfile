@@ -28,11 +28,11 @@ pipeline{
             }
         }
 
-         stage('Deploy on Tomcat Server'){
-            steps{
-                build job: 'Deploy On Tomcat Server'
-            }
-        }
+        // stage('Deploy on Tomcat Server'){
+        //    steps{
+        //        build job: 'Deploy On Tomcat Server'
+        //    }
+       // }
 
     }
 }
